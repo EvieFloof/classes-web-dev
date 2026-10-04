@@ -1,0 +1,43 @@
+html {
+    background-image: url("../assets/images/norbert.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    color: white;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+button:hover,
+button:focus {
+    background-color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: blueviolet;
+}
+
+.Submit {
+    background-color: lightgreen;
+}
+
+.Secondary,
+.Secondary:hover,
+.Secondary:active {
+    background-color: lightgrey;
+    cursor: not-allowed;
+}
+
+button {
+    background-color: orange;
+    color: black;
+
+    border: none;
+    border-radius: 9%;
+    padding: 3px;
+}

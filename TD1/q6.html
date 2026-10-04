@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="public\assets\images\thumbUp.png" />
+    <title>TD1</title>
+</head>
+
+<body>
+    <h1>Création du compte</h1>
+
+    <form action="submit">
+        <h2>Identité</h2>
+        <ul>
+            <li>
+                <label for="Name">Nom</label>
+                <input type="text" name="Name" id="Name">
+            </li>
+            <li>
+                <label for="FirstName">Prénom</label>
+                <input type="text" name="FirstName" id="FirstName">
+            </li>
+            <li>
+                <label for="Birth">Date de naissance</label>
+                <input type="date" name="Birth" id="Birth">
+            </li>
+            <li>
+                <label for="Phone">Numéro de téléphone</label>
+                <input type="tel" name="Phone" id="Phone">
+            </li>
+            <li>
+                <label for="Avatar">Votre photo ou avatar</label>
+                <input type="file" name="Avatar" id="Avatar">
+            </li>
+        </ul>
+
+        <h2>Informations du compte</h2>
+        <ul>
+            <li>
+                <label for="Mail">Login (email)</label>
+                <input type="email" name="Mail" id="Mail">
+            </li>
+            <li>
+                <label for="Password">Mot de passe</label>
+                <input type="password" name="Password" id="Password">
+            </li>
+        </ul>
+
+        <h2>Options de votre espace personnel</h2>
+
+        <ul>
+            <li>
+                <label for="Color">Couleur du thème</label>
+                <input type="color" name="Color" id="Color">
+            </li>
+            <li>
+                <label for="Newsletter">Cochez cette case pour s'inscrire à la newsletter</label>
+                <input type="checkbox" name="Newsletter" id="Newsletter">
+            </li>
+            <li>
+                <label for="Newscount">Nombre de newsletters par semaine souhaité</label>
+                <input type="number" name="Newscount" id="Newscount">
+            </li>
+        </ul>
+
+        <h2>N'oubliez pas de cliquer sur "Créer le compte" !</h2>
+
+        <input type="submit" value="Créer le compte">
+
+    </form>
+
+</body>
+
+</html>

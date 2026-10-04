@@ -1,0 +1,23 @@
+h2,
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+body>ul>li a {
+    font-style: italic;
+    color: palevioletred;
+}
+
+body>ol>li a {
+    color: aqua;
+}
+
+body>ol>li {
+    background-color: blueviolet;
+}
+
+body>ul>li {
+    background-color: lightskyblue;
+}

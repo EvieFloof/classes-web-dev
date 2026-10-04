@@ -1,0 +1,21 @@
+li {
+    color: blue
+}
+
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+    text-decoration: underline;
+}
+
+.nevermind {
+    text-decoration: line-through;
+}
+
+.important {
+    background-color: orange;
+}

@@ -1,0 +1,30 @@
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    font-style: italic;
+    color:green;
+}
+
+h4 {
+    background-color: lightskyblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h5 {
+    text-transform: capitalize;
+    opacity: 0.5;
+}
+
+div {
+    background-color: pink;
+    width: 500px;
+    aspect-ratio: 1;
+
+    text-align: center;
+}
+
+h6 {
+    font-size: xxx-large;
+}

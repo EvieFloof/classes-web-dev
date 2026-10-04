@@ -1,0 +1,25 @@
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    width: 100%;
+}
+
+h2,
+p {
+    color: grey;
+}
+
+h3 {
+    font-style: italic;
+    color: blue;
+}
+
+.walk_done {
+    background-color: skyblue;
+}
+
+.unavailable {
+    background-color: grey;
+}
